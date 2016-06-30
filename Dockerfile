@@ -26,6 +26,7 @@ RUN mkdir -p /tomcat/logs/
 
 COPY entrypoint.sh /
 
+USER nobody
 EXPOSE 8080 8009
 VOLUME ["/tomcat/webapps", "/tomcat/logs"]
 CMD ["/entrypoint.sh"]
