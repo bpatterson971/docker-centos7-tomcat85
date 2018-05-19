@@ -2,8 +2,8 @@ FROM bpatterson/centos7-jdk8:latest
 
 LABEL name="CentOS7 with Apache Tomcat 8"
 
-ENV APACHE_TOMCAT_DOWNLOAD_URL https://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.20/bin/apache-tomcat-8.5.20.tar.gz
-ENV APACHE_TOMCAT_INSTALL_DIR /usr/local/apache-tomcat-8.5.20
+ENV APACHE_TOMCAT_DOWNLOAD_URL https://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31.tar.gz
+ENV APACHE_TOMCAT_INSTALL_DIR /usr/local/apache-tomcat-8.5.31
 
 RUN curl \
 	-L \
